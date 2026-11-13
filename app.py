@@ -6,7 +6,7 @@ import streamlit as st
 import plotly.graph_objects as go
 import pydeck as pdk
 from dashboard_core import cargar_datos,datos_mapa,tabla_modelos,tabla_serie
-from dengue_tools.entrenamiento import ErrorConsulta
+from dengue_tools.core import ErrorConsulta
 
 RAIZ=Path(__file__).resolve().parent
 st.set_page_config(page_title='Dengue · Antioquia',page_icon='📊',layout='wide')
