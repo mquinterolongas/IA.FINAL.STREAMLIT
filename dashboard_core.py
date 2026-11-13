@@ -1,6 +1,6 @@
 """Funciones de integración independientes de la interfaz."""
 import pandas as pd
-from dengue_tools.core import ServicioDengue,ErrorConsulta
+from dengue_tools.entrenamiento import ServicioDengue,ErrorConsulta
 
 # Ubicaciones urbanas aproximadas; no representan estaciones ni polígonos municipales.
 COORDENADAS={'Medellín':(6.2442,-75.5812),'Apartadó':(7.883,-76.633)}
